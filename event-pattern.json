@@ -1,0 +1,19 @@
+{
+  "source": ["aws.ec2", "aws.s3", "aws.rds", "aws.lambda", "aws.dynamodb", "aws.sns", "aws.sqs", "aws.elasticache"],
+  "detail-type": ["AWS API Call via CloudTrail"],
+  "detail": {
+    "eventName": [
+      "RunInstances",
+      "CreateBucket",
+      "CreateDBInstance",
+      "CreateFunction",
+      "CreateTable",
+      "CreateTopic",
+      "CreateQueue",
+      "CreateCacheCluster",
+      "CreateSecurityGroup",
+      "CreateSubnet",
+      "CreateVpc"
+    ]
+  }
+}
