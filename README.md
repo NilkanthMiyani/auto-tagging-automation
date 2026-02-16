@@ -59,15 +59,6 @@ aws cloudformation create-stack `
 - **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** - Step-by-step deployment, verification, troubleshooting
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - Technical deep-dive, system design, data flow
 
-## Cost
-
-| Component | Cost |
-|-----------|------|
-| CloudTrail | $25-50/month |
-| Lambda | FREE (<1M invocations) |
-| EventBridge | FREE (<100K events) |
-| S3 | <$1/month (log storage) |
-| **Total** | **~$25-100/month** |
 
 ## Requirements
 
@@ -79,6 +70,4 @@ aws cloudformation create-stack `
 
 Check [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for troubleshooting and customization options.
 
-## License
 
-MIT
