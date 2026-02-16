@@ -7,7 +7,6 @@ Automatically tags AWS resources with `CreatedBy` metadata when they're created.
 - **Automatic**: Tags resources instantly when created (1-5 second latency)
 - **No Code Changes**: Uses EventBridge + Lambda, no SDK integration needed
 - **Wide Coverage**: Supports 8+ AWS services (EC2, S3, RDS, Lambda, DynamoDB, SNS, SQS, ElastiCache)
-- **Low Cost**: ~$25-50/month (mostly CloudTrail storage)
 - **Easy to Deploy**: Single CloudFormation command
 
 ## Quick Start
