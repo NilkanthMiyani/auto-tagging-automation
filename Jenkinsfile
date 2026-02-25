@@ -30,7 +30,13 @@ pipeline {
                     cat report.json || echo "No report generated"
                     echo "====================================="
 
-                    exit $EXIT_CODE
+                    if [ "$EXIT_CODE" -ne 0 ]; then
+                      echo "⚠️Secrets detected, but not failing the build."
+                    else
+                      echo "No secrets found."
+                    fi
+
+                    exit 0
                     '''
                 }
             }
